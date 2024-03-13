@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Vercel Mailer Test</title>
+  </head>
+  <body>
+    <>
+      <h1>Vercel Mailer Test</h1>
+      <form action="/api/send-email.js" method="post">
+        <input type="text" name="from" placeholder="Your Name" required />
+        <input type="text" name="email" placeholder="Your Email" required />
+        <input type="text" name="subject" placeholder="My Feedback!" required />
+        <textarea name="text" placeholder="Text" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+  </body>
+</html>
